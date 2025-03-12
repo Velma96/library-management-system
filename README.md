@@ -147,7 +147,7 @@ python cli.py add-book --title "New Book" --author "Jane Doe"
 
 ## Contributing  
 
-Feel free to fork this repository and submit pull requests for improvements! 🚀  
+Feel free to fork this repository and submit pull requests for improvements!  
 
 ---
 
