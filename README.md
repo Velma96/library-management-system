@@ -24,15 +24,15 @@ The project follows best practices, including structured package organization, v
 
 ```
 library_management_system/
-│── migrations/          # Alembic migration scripts
-│── models.py            # Database models using SQLAlchemy
-│── cli.py               # Main CLI script for user interaction
-│── database.py          # Database connection setup
-│── Pipfile              # Pipenv dependency management
-│── Pipfile.lock         # Locked dependencies
-│── README.md            # Documentation
-│── .gitignore           # Ignoring unnecessary files
-└── config.py            # Configuration settings
+│── migrations/          
+│── models.py            
+│── cli.py              
+│── database.py          
+│── Pipfile              
+│── Pipfile.lock         
+│── README.md            
+│── .gitignore           
+└── config.py            
 ```
 
 ---
