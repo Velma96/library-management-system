@@ -136,7 +136,7 @@ python cli.py add-book --title "New Book" --author "Jane Doe"
 
 ## Technologies Used  
 
-- **Python 3.12** – Programming language  
+- **Python 3.12**   
 - **SQLAlchemy** – Object-Relational Mapping (ORM)  
 - **SQLite** – Lightweight database  
 - **Alembic** – Database migrations  
