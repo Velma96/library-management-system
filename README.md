@@ -1,5 +1,4 @@
 
----
 
 # Library Management System (CLI & ORM-Based)
 
@@ -105,31 +104,38 @@ python cli.py
 #### Register a New Member  
 
 ```sh
-python cli.py register-member --name "John Doe"
+python cli.py register-member "Velma Phoebe"
 ```
 
 #### Search for a Book  
 
 ```sh
-python cli.py search-book --title "The Great Gatsby"
+python cli.py search-book  "Dune"
 ```
 
 #### Borrow a Book  
 
 ```sh
-python cli.py borrow-book --member-id 1 --book-id 2
+python cli.py borrow-book "Dune"
 ```
+
+#### List All Books 
+
+```sh
+python cli.py list-books
+```
+
 
 #### Return a Book  
 
 ```sh
-python cli.py return-book --member-id 1 --book-id 2
+python cli.py return-book "Book Title"
 ```
 
 #### Add a New Book (Librarian)  
 
 ```sh
-python cli.py add-book --title "New Book" --author "Jane Doe"
+python cli.py add-book "The Catcher in the Rye" "J.D. Salinger"
 ```
 
 ---

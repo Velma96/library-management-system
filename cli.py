@@ -58,6 +58,21 @@ def return_book(title):
         click.echo("This book is not currently borrowed.")
 
 @click.command()
+@click.argument("title")
+def search_book(title):
+    """Search for a book by title"""
+    book = session.query(Book).filter(Book.title.ilike(f"%{title}%")).all()
+    if book:
+        for b in book:
+            status = "Available" if b.available else "Borrowed"
+            click.echo(f"{b.title} by {b.author} - {status}")
+    else:
+        click.echo("No matching books found.")
+
+cli.add_command(search_book)
+
+
+@click.command()
 def list_books():
     """List all books"""
     books = session.query(Book).all()
